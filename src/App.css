@@ -1,5 +1,5 @@
 .App-content {
-  background-color: #282c34;
+  background: #130f40;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,3 +9,11 @@
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}

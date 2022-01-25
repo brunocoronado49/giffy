@@ -1,0 +1,26 @@
+.gif {
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    text-decoration:  none;
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+
+.gif a {
+    color: #2c3e50;
+}
+
+.gif a:hover {
+    color: #e74c3c;
+}
+
+img {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 10px;
+}
