@@ -6,6 +6,12 @@
     text-align: center;
     color: #fff;
     margin: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.gif:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 .gif a {

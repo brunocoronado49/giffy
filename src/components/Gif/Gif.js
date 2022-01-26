@@ -1,15 +1,17 @@
 import React from 'react';
+import {Link} from 'wouter';
 import './gif.css';
 
 const Gif = ({title, id, url}) => {
   return (
-    <div className="gif"> 
-      <img src={url} alt={title} />
-      <h3></h3>
-      <button className="btn btn-outline-warning" onClick={
-        () => alert(`${title} - ${id}`)
-      }>{title}</button>
-    </div>
+    <Link to={`/gif/${id}`}>
+      <div className="gif">
+        <img src={url} alt={title}/>
+        <button className="btn btn-outline-dark" onClick={
+          () => alert(`${title} - ${id}`)
+        }>{title}</button>
+      </div>
+    </Link>
   );
 };
 
