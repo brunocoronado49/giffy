@@ -26,7 +26,7 @@ const Home = () => {
             type="text"
             className="form-control"
             name="keyword"
-            placeholder="Search gifs"
+            placeholder="Search gifs here..."
             onChange={handleInput}
           />
         </form>

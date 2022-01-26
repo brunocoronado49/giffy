@@ -10,7 +10,10 @@ const {gifs} = useContext(GifsContext);
 
   console.log(gif);
 
-  return <Gif {...gif}/> // Way more easily to get the params/props
+  return <div>
+    <h1>{gif.title}</h1>
+    <Gif {...gif}/>
+  </div> // Way more easily to get the params/props
 };
 
 export default Detail;

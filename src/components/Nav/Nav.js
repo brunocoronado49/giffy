@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from 'wouter';
+import Logo from '../../assets/logo.png';
+import './nav.css';
 
 const Nav = () => {
   return (
@@ -7,7 +9,7 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand d-flex align-center" to="/">
-            <h1>Giffy</h1>
+            <img className="title" src={Logo} alt="logo" width="250"/>
           </Link>
         </div>
       </nav>
