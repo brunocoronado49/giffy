@@ -3,3 +3,13 @@
     text-align: center;
     color: rgb(122, 33, 33);
 }
+
+.trend {
+    color: black;
+    font-weight: bold;
+}
+
+.trend:hover {
+    color: red;
+    font-weight: bold;
+}

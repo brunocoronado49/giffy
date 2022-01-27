@@ -6,6 +6,7 @@ import Results from './pages/Results/Results';
 import { Route, Link } from 'wouter';
 import StaticContext from './context/StaticContext';
 import { GifsContextProvider } from './context/GifsContext';
+import TrendingPage from './pages/Trending/TrendingPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
         <section className="App-content">
           <GifsContextProvider>
             <Route path="/" component={Home} />
+            <Route path="/trending" component={TrendingPage} />
             <Route path="/search/:keyword" component={Results} />
             <Route path="/gif/:id" component={Detail} />
           </GifsContextProvider>

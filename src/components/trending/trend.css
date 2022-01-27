@@ -1,0 +1,19 @@
+li {
+  cursor: pointer;
+  padding: 10px;
+  display: inline;
+  float: left;
+  width: 50%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+li:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.col3 {
+    align-items: center;
+}

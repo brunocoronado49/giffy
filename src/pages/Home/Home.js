@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { useGifs } from "../../hooks/useGifs";
 import ListOfGifs from "../../components/Gif/ListOfGifs";
+import Trending from '../../components/trending/Trending';
 
 const Home = () => {
   const [keyword, setKeyword] = useState("");
@@ -20,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="container p-4">
-      <div className="col-md-8">
+      <div className="col-md-6">
         <form onSubmit={handleSumit}>
           <input
             type="text"
