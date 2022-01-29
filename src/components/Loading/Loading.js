@@ -1,10 +1,15 @@
-import React from 'react';
-import './loading.css';
+import React from "react";
+import "./loading.css";
 
 const Loading = () => {
-  return <div className="loading-container">
-      <h1 className="loading">Cargando Gifs...</h1>
-  </div>;
+  return (
+    <div>
+      <h2>Loading...</h2>
+      <div className="load">
+        <hr/><hr/><hr/><hr/>
+      </div>
+    </div>
+  );
 };
 
 export default Loading;

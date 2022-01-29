@@ -3,6 +3,7 @@ import GifsContext from '../context/GifsContext';
 import { getGifs } from '../services/GetGifs';
 
 export const useGifs = ({keyword} = {keyword: null}) => {
+  
   //const [gifs, setGifs] = useState([]);
   const {gifs, setGifs} = useContext(GifsContext);
   const [loading, setLoading] = useState(false);

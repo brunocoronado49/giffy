@@ -5,7 +5,7 @@ import { useGifs } from '../../hooks/useGifs';
 
 const Results = ({ params }) => {
   const { keyword } = params;
-  const {loading, gifs} = useGifs({keyword})
+  const {loading, gifs} = useGifs({keyword});
 
   return <div>{loading ? <Loading /> : <ListOfGifs gifs={gifs} />}</div>;
 };
